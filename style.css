@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+ 
+ h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bold; 
+    font-size: 900%; 
+   
+    background-color: rgb(255, 0, 255);
+    color: white;
+   
+ }
+
+ .BigApe {
+    display: block; /* Zorg dat de afbeelding blokniveau is */
+    margin: 0 auto; /* Horizontaal centreren */
+    
+}
+
+body {
+    background-color: rgb(0, 0, 0); /* Zet de achtergrondkleur naar lichtblauw */
+}
+
+
+.What {
+
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Bangers' ;
+    font-weight: bold; 
+    font-size: 100%; 
+   letter-spacing: 7px;
+   background-color: rgb(255, 0, 255);
+    color: white;
+   
+}
+
+.NormalApe {
+    width: 450px;      /* Maak de afbeelding kleiner door de breedte in te stellen */
+    height: auto;      /* Houd de verhoudingen van de afbeelding behouden */
+    display: block;    /* Zorg ervoor dat de afbeelding een blok element is */
+    margin-left: 20px; /* Center de afbeelding horizontaal met behulp van automatische marge */
+    margin-right: auto; 
+    margin-top: 50px;  /* Voeg een kleine marge bovenaan toe */
+}
+
+
+.container {
+    display: flex;           /* Zorg ervoor dat de afbeeldingen en tekst naast elkaar komen */
+    align-items: center;     /* Zet de inhoud in het verticale midden */
+}
+
+.NormalApe {
+    width: 400px;           /* Stel de grootte van de afbeelding in */
+    height: auto;           /* Behoud de aspect ratio */
+    margin-right: 20px;     /* Voeg wat ruimte tussen de afbeelding en de tekst toe */
+}
+
+.info h2 {
+    font-size: 18px;         /* Pas de grootte van de tekst aan */
+    line-height: 1.6;        /* Maak de tekst iets gemakkelijker leesbaar */
+    width: 60%;              /* De tekst heeft 60% van de breedte */
+    background-color: rgb(255, 0, 255);
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+.Bullish {
+
+    font-size: 18px;         /* Pas de grootte van de tekst aan */
+    line-height: 1.6;        /* Maak de tekst iets gemakkelijker leesbaar */
+    width: 60%;              /* De tekst heeft 60% van de breedte */
+    background-color: rgb(255, 0, 255);
+    color: white;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+
+.MoreApes {
+
+    width: 220px;      /* Maak de afbeelding kleiner door de breedte in te stellen */
+    height: auto;      /* Houd de verhoudingen van de afbeelding behouden */
+    display: block;    /* Zorg ervoor dat de afbeelding een blok element is */
+    margin-left: 125px; /* Center de afbeelding horizontaal met behulp van automatische marge */
+    margin-right: auto; 
+    margin-top: 50px; 
+
+}
+
+
+.Made {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.Made a {
+    color: white;            /* Maakt de link wit */
+    text-decoration: underline; /* Voegt onderlijning toe aan de link */
+}
+
+
